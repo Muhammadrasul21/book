@@ -1,4 +1,3 @@
-import React from "react";
 import girl from "../assets/girl.png";
 const About = () => {
   return (
@@ -6,7 +5,7 @@ const About = () => {
       <div className="container mx-auto max-w-[1140px] p-4">
         <div className="flex justify-between items-center">
           <div>
-            <img src={girl} alt="" />
+            <img src={girl} alt="girl" />
           </div>
           <div className="w-[488px]">
             <span className="text-[#DC780B] tracking-widest">ABOUT US</span>

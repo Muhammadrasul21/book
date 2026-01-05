@@ -1,4 +1,5 @@
-import hero from "../assets/hero.jpg"
+import hero from "../assets/hero.jpg";
+import { heroBtn } from "../constants";
 const Hero = () => {
   return (
     <div>
@@ -14,12 +15,14 @@ const Hero = () => {
               specialized equipment,
             </p>
             <div className="flex gap-8">
-              <button className="w-[158px] h-11 cursor-pointer border border-[#DC780B] rounded-md text-[#DC780B] hover:bg-[#DC780B] hover:text-white transition-all duration-300 ease-in-out">
-                Button Text
-              </button>
-              <button className="w-[158px] h-11 cursor-pointer border border-[#DC780B] rounded-md text-[#DC780B] hover:bg-[#DC780B] hover:text-white transition-all duration-300 ease-in-out">
-                Food Details
-              </button>
+              {heroBtn?.map((item) => (
+                <button
+                  key={item}
+                  className="w-[158px] h-11 cursor-pointer border border-[#DC780B] rounded-md text-[#DC780B] hover:bg-[#DC780B] hover:text-white transition-all duration-300 ease-in-out"
+                >
+                  {item}
+                </button>
+              ))}
             </div>
           </div>
           <div>

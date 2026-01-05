@@ -1,4 +1,3 @@
-import React from "react";
 import woman from "../assets/maskGroup.svg";
 import { FaStar } from "react-icons/fa";
 const Info = () => {

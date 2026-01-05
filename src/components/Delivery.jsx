@@ -1,25 +1,4 @@
-import React from "react";
-
-const features = [
-  {
-    icon: "🏠",
-    title: "Quality Food",
-    description:
-      "It can be a very secure path to earn good money and make you very successful creative entrepreneur.",
-  },
-  {
-    icon: "🛵",
-    title: "Food Delivery",
-    description:
-      "It can be a very secure path to earn good money and make you very successful creative entrepreneur.",
-  },
-  {
-    icon: "😋",
-    title: "Super Taste",
-    description:
-      "It can be a very secure path to earn good money and make you very successful creative entrepreneur.",
-  },
-];
+import { features } from "../constants";
 
 const Delivery = () => {
   return (

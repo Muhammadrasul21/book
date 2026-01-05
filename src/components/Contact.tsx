@@ -1,4 +1,3 @@
-import React from "react";
 
 const Contact = () => {
   return (
@@ -6,7 +5,7 @@ const Contact = () => {
       <div className="container mx-auto max-w-[1140px] p-4">
         <div className="flex flex-col items-center mb-8">
           <p className="font-medium text-[#DC780B] pt-[115px] tracking-[20%]">
-            CONTACT{" "}
+            CONTACT
           </p>
           <h2 className="font-bold text-3xl w-[600px] text-center mt-4 mb-[47px]">
             Food Stalls with Persons but also specialized equipment, Skills to
