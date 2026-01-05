@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Philosopher';
+    src: url('./fonts/Philosopher-Regular.woff2') format('woff2'),
+        url('./fonts/Philosopher-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
